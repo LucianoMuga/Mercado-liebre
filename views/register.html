@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>register</title>
+</head>
+<body style="background-color: #ebebeb;">
+    <header class="main-header register">
+        <form action="/" method="GET" >
+            <div>
+                <label for="name-lastname"></label>
+                <input type="text" name="name-lastname" id="name-lastname" placeholder="Nombre y apellido">
+            </div>
+            <div>
+                <label for="name-user"></label>
+                <input type="text" name="name-user" id="name-user" placeholder="Nombre de usuario">
+            </div>
+            <div>
+                <label for="e-mail"></label>
+                <input type="text" name="e-mail" id="e-mail" placeholder="E-mail">
+            </div>
+                <h4 style="padding: 10px;">Fecha de nacimiento</h4>
+            <div>
+                <input type="date" name="fecha">
+            </div>
+            <div>
+                <label for="direcion"></label>
+                <input type="text" name="direccion" id="direccion" placeholder="Domicilio">
+            </div>
+                <h4 style="padding: 10px;">Perfil de usuario</h4>
+            <div>
+                <label for="buy">Comprador</label>
+                <input type="radio" name="buy" id="buy">
+                <label for="sell">Vendedor</label>
+                <input type="radio" name="sell" id="sell">
+            </div>
+            <div>
+    
+                <label for="categoria">Categorias de interes:</label>
+                <input type="checkbox" name="electro" id="electro">
+                <label for="moda">Moda</label>
+                <input type="checkbox" name="moda" id="moda">
+                <label for="hogar">Hogar</label>
+                <input type="checkbox" name="hogar" id="hogar">
+                <label for="jugueteria">Jugeteria</label>
+                <input type="checkbox" name="jugueteria" id="jugueteria">
+                <label for="vida-sana">Vida sana</label>
+                <input type="checkbox" name="vida-sane" id="vida-sana">
+
+                </select>
+            </div>
+            <div>
+                <label for="avatar">Foto de usuario</label>
+                <input type="file" name="avatar" accept=".jpg">
+            </div>
+            <div>
+                <label for="key"></label>
+                <input type="password" name="key" placeholder="password">
+            </div>
+            <div>
+                <label for="repit-key"></label>
+                <input type="password" name="repit-key" placeholder="repetir password">
+            </div>
+            <div>
+            <button type="submit"><a href="/">Enviar</a></button>
+            <button type="reset">Borrar</button>
+            </div>
+        </form>
+    </header>
+</body>
+</html>

@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #EAC926;
+    font-family: 'Roboto', sans-serif;;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #ebebeb;
+}
+
+footer {
+    background-color: white;
+}
+
+
+.lupa {
+    width: auto;
+    padding: 8px;
+}
+
+
+.pieDePagina {
+    text-align: center;
+}
+
+.icon {
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+    color: blue;
+}
+
+.conteiner01 {
+    border: 1px solid #ebebeb;
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(227, 224, 224);
+}
+
+.details {
+
+    border-top: 1px solid white; 
+    text-align:left; 
+    background-color:white;
+}
+
+.details-price-descount {
+    padding: 10px;
+    display: flex;
+    position: relative;
+}
+
+.details:hover {
+    opacity: 1;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.details {
+    opacity: 0;
+    transition: all 450;
+
+}
+
+.descount {
+    margin-left: 10px;
+    color: green;
+}
+
+.name-product {
+    padding: 10px;
+    color: gray;
+    font-weight: normal;
+}
+
+.icon2 {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    color: green;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    left: 300px;
+    bottom: 18px;
+    transition: all 450ml;
+}
+
+.icon2:hover {
+    transform: rotate(45deg);
+}
+
+.img {
+    width: 100%;
+}
+
+.main-header {
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.copy-header {
+    font-weight: 400;
+    text-align: center;
+}
+
+.burger-menu {
+    background-color: #03264c;
+    color: white;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    font-size: 18;
+    text-align: center;
+    margin: auto;
+}
+
+.main-navbar {
+    display: none;
+}
+
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.navbar {
+    width: 50%;
+    padding: 8px;
+    display: flex;
+}
+
+.search {
+    margin-left: 3px;
+    border: grey solid;
+    border-width: thin;
+    background-color: #ebebeb;
+}
+
+.register div {
+    padding: 10px;
+}
+
+.login {
+    padding: 10px;
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+.login input {
+    width: 70%;
+    padding: 5px;
+}
+
+.button-login {
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    width: 70%;
+}
+
+
+@media (min-width: 768px){
+    .main-header-top-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .copy-header {
+        max-width: 350px;
+        text-align: right;
+    }
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul {
+        display: flex;
+    }
+
+    .main-navbar li {
+        margin: 0 5px;
+    }
+}
+
+@media (min-width: 1200px ){
+    .global {
+        display: flex;
+    }
+
+    .main-header-top-bar, .main-navbar{
+        max-width: 1200;
+        margin: auto;
+    }
+    .main-navbar {
+        margin-top: 40px;
+    }
+
+    .main-header-top-bar{
+        align-items: center;
+    }
+    .main-navbar li {
+        margin: 0 10px;
+
+    }
+    .main-navbar a {
+        font-size: 19px;
+    }
+    .copy-header {
+        margin: 0;
+        max-width: none;
+        font-size: 18px;
+        font-weight: normal;
+    }
+    .logo {
+        width: 250px;
+    }
+    .burger-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 380px){
+    .nb {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 520px){
+    
+    .conteiner01 {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);;
+    }
+    .global {
+        display: flex;
+    }
+}
