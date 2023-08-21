@@ -172,10 +172,13 @@ footer {
     padding: 10px;
     text-align: center;
     background-color: #ebebeb;
+}
+
+.login-button {
     transition: all 450ms;
 }
 
-.login:hover {
+.login-button:hover {
     background-color: #0022AA;
 }
 
@@ -261,6 +264,7 @@ footer {
     .nb {
         visibility: hidden;
     }
+    
 }
 
 @media (min-width: 520px){
