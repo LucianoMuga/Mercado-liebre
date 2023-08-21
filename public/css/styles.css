@@ -52,6 +52,7 @@ footer {
     border-top: 1px solid white; 
     text-align:left; 
     background-color:white;
+    position: relative;
 }
 
 .details-price-descount {
@@ -92,14 +93,14 @@ footer {
     color: green;
     background-color: #FFF;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
+    bottom: 68px;
     left: 300px;
-    bottom: 18px;
-    transition: all 450ml;
+    transition: all 600ms;
 }
 
-.icon2:hover {
-    transform: rotate(45deg);
+.icon2:hover { 
+    transform: rotate(270deg);
 }
 
 .img {
@@ -171,6 +172,11 @@ footer {
     padding: 10px;
     text-align: center;
     background-color: #ebebeb;
+    transition: all 450ms;
+}
+
+.login:hover {
+    background-color: #0022AA;
 }
 
 .login input {
@@ -244,7 +250,6 @@ footer {
     .burger-menu {
         display: none;
     }
-    
 }
 
 @media (max-width: 380px){
