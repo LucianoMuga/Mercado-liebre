@@ -37,6 +37,11 @@ footer {
     text-align: center;
     margin: 10px;
     color: blue;
+    transition: all 450ml;
+}
+
+.icon:hover {
+    color: #EAC926;
 }
 
 .conteiner01 {
@@ -257,6 +262,11 @@ footer {
     }
     .burger-menu {
         display: none;
+    }
+    .pie-d-pagina {
+        align-items: center;
+        padding: 50px;
+        display: flex;
     }
 }
 
