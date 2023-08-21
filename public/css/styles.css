@@ -191,6 +191,11 @@ footer {
     width: 70%;
 }
 
+.titles {
+    text-align: start; 
+    margin-left: 10px;
+    padding: 10px;
+}
 
 @media (min-width: 768px){
     .main-header-top-bar {
